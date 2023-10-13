@@ -138,6 +138,12 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Member.cs" />
+    <Compile Include="Migrations\202310131726410_create org.cs" />
+    <Compile Include="Migrations\202310131726410_create org.Designer.cs">
+      <DependentUpon>202310131726410_create org.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Org.cs" />
     <Compile Include="Models\test1014_Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -197,6 +203,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202310131730584_add member.resx">
       <DependentUpon>202310131730584_add member.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202310131726410_create org.resx">
+      <DependentUpon>202310131726410_create org.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
